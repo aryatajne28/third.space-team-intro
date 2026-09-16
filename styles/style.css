@@ -5,6 +5,9 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -71,4 +74,19 @@ body {
     font-style: italic;
     text-align: center;
     color: #040457;
+    margin-bottom: 24px;
+}
+
+.hero-buttons {
+    font-family: "Google Sans", sans-serif;
+}
+
+.hero-buttons a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 12px;
 }
